@@ -399,7 +399,7 @@ def update_meal(id_meal):
   meal.description = data.get('description')
   if 'datetime' in data:
     meal.datetime = datetime.fromisoformat(data.get('datetime'))
-  meal.isDiet = data.get('isDiet')
+  meal.isInDiet = data.get('isInDiet')
   db.session.commit()
 
   return jsonify({"message": "Meal updated", "meal": meal.to_dict()}), 200
