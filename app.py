@@ -288,7 +288,7 @@ def get_meal(id_meal):
       403:
         description: Não autorizado
     """
-  meal = Meal.query.get(id_meal)
+  meal =db.session.get(Meal, id_meal)
 
   if meal and meal.user_id != current_user.id:
     return jsonify({"error": "Unauthorized"}), 403
