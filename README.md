@@ -5,11 +5,11 @@ API RESTful completa para controle de dieta diária usando Flask. Permite regist
 - [📄 Sobre o Projeto](#-sobre-o-projeto)
 - [🔧 Funcionalidades](#-funcionalidades)
 - [🚀 Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [ ⚙️ Instalação e Execução](#-instalacao-e-execucao)
-- [📄 Documentação da API](#-documentacao-da-api)
+- [ ⚙️ Instalação e Execução](#-instalação-e-execução)
+- [📄 Documentação da API](#-documentação-da-api)
 - [🧪 Testes](#-testes)
 - [🤝 Como contribuir](#-como-contribuir)
-- [📝 Licença](#-licenca)
+- [📝 Licença](#-licença)
 - [👥 Autor](#-autor)
 
 
