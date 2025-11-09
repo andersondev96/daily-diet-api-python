@@ -386,7 +386,7 @@ def update_meal(id_meal):
       403:
         description: Não autorizado
     """
-  meal = Meal.query.get(id_meal)
+  meal = db.session.get(Meal, id_meal)
 
   if not meal:
     return jsonify({"error": "Meal not found"}), 404
@@ -434,7 +434,7 @@ def delete_meal(id_meal):
       403:
         description: Não autorizado
     """
-  meal = Meal.query.get(id_meal)
+  meal = db.session.get(Meal, id_meal)
 
   if not meal:
     return jsonify({"error": "Meal not found"}), 404
